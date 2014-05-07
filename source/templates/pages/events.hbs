@@ -50,19 +50,23 @@ dates:
     lat: 35.846682
     lon: -86.392921
 ---
-<h1>Events</h1>
-<ul>
-{{#each dates}}
-  <li>
-  {{title}} - {{date}}
+<div>
+  <h1>Events</h1>
   <ul>
-    {{#each events}}
-    <li>
-      <p>{{title}}</p>
-      <p><a href="{{location-url}}" data-lat="{{lat}}" data-lon="{{lon}}">{{location}}</a></p>
-    </li>
-    {{/each}}
-  </ul>
+  {{#each dates}}
+  <li>
+    {{title}} - {{date}}
+    <ul>
+      {{#each events}}
+      <li>
+        <p>{{title}}</p>
+        <p><a href="{{location-url}}" data-lat="{{lat}}" data-lon="{{lon}}">{{location}}</a></p>
+      </li>
+      {{/each}}
+    </ul>
   </li>
-{{/each}}
-</ul>
+  {{/each}}
+  </ul>
+</div>
+
+
