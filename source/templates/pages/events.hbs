@@ -59,8 +59,10 @@ dates:
     <ul>
       {{#each events}}
       <li>
-        <p>{{title}}</p>
-        <p><a href="{{location-url}}" data-lat="{{lat}}" data-lon="{{lon}}">{{location}}</a></p>
+        <a class="event" href="{{location-url}}" data-lat="{{lat}}" data-lon="{{lon}}">
+          <p>{{title}}</p>
+          <p>{{location}}</p>
+        </a>
       </li>
       {{/each}}
     </ul>
