@@ -24,7 +24,9 @@ module.exports = function(grunt) {
 
     config: {
       src: 'source',
-      dist: 'build'
+      dist: 'build',
+      stylesPath:'<%= config.dist %>/assets/css',
+      scriptsPath:'<%= config.dist %>/assets/js'
     },
 
     watch: {
@@ -78,13 +80,13 @@ module.exports = function(grunt) {
       main: {
         files: [
           // Copy any vanilla CSS files included in the style source
-          {expand: true, cwd: '<%= config.src %>/assets/styles', src: ['**', '!*.scss', '!*.sass'], dest: '<%= config.dist %>/assets/css'},
+          {expand: true, cwd: '<%= config.src %>/assets/styles', src: ['**', '!*.scss', '!*.sass'], dest: '<%= config.stylesPath %>'},
 
           // Copy any images
           {expand: true, cwd: '<%= config.src %>/content', src: ['*.jpg', '*.png', '*.jpeg'], dest: '<%= config.dist %>/'},
 
           // Copy any vanilla JS files included in the script source
-          {expand: true, cwd: '<%= config.src %>/assets/scripts', src: ['**', '!*.coffee'], dest: '<%= config.dist %>/assets/js'}
+          {expand: true, cwd: '<%= config.src %>/assets/scripts', src: ['**', '!*.coffee'], dest: '<%= config.scriptsPath %>'}
         ]
       }
     },

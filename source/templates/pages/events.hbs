@@ -39,8 +39,8 @@ dates:
     event-url: http://google.com
     location: Reveille Joe Coffee Company
     location-url: http://google.com
-    lat: 35.846682
-    lon: -86.392921
+    lat: 35.855941
+    lon: -86.4291
   -
     title: "event 5"
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, ad, voluptatem iste qui fugit deserunt aspernatur quae unde ipsam libero sequi assumenda non doloremque laborum cupiditate iusto minima voluptas expedita."
@@ -50,19 +50,25 @@ dates:
     lat: 35.846682
     lon: -86.392921
 ---
-<h1>Events</h1>
-<ul>
-{{#each dates}}
-  <li>
-  {{title}} - {{date}}
+<div>
+  <h1>Events</h1>
   <ul>
-    {{#each events}}
-    <li>
-      <p>{{title}}</p>
-      <p><a href="{{location-url}}" data-lat="{{lat}}" data-lon="{{lon}}">{{location}}</a></p>
-    </li>
-    {{/each}}
-  </ul>
+  {{#each dates}}
+  <li>
+    {{title}} - {{date}}
+    <ul>
+      {{#each events}}
+      <li>
+        <a class="event" href="{{location-url}}" data-lat="{{lat}}" data-lon="{{lon}}">
+          <p>{{title}}</p>
+          <p>{{location}}</p>
+        </a>
+      </li>
+      {{/each}}
+    </ul>
   </li>
-{{/each}}
-</ul>
+  {{/each}}
+  </ul>
+</div>
+
+
