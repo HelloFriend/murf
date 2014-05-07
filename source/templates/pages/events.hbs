@@ -75,6 +75,9 @@ dates:
       {{#each events}}
       <li>
         <a class="event" href="{{location-url}}" data-lat="{{lat}}" data-lon="{{lon}}">
+          <time datetime="{{time-hour}}:{{time-minute}}{{time-daypart}}">
+            <span class="hour">{{time-hour}}</span><span class="separatorPunctuation">:</span><span class="minute">{{time-minute}}</span><span class="daypart">{{time-daypart}}</span>
+          </time>
           <span>{{title}}</span>
           <span>{{location}}</span>
         </a>
