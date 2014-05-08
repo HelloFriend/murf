@@ -70,7 +70,7 @@ dates:
   <ul>
   {{#each dates}}
   <li>
-    {{title}} - {{date}}
+    <span class="month-heading">{{title}} - {{date}}</span>
     <ul>
       {{#each events}}
       <li>
@@ -78,8 +78,8 @@ dates:
           <time datetime="{{time-hour}}:{{time-minute}}{{time-daypart}}">
             <span class="hour">{{time-hour}}</span><span class="separatorPunctuation">:</span><span class="minute">{{time-minute}}</span><span class="daypart">{{time-daypart}}</span>
           </time>
-          <span>{{title}}</span>
-          <span>{{location}}</span>
+          <span class="title">{{title}}</span>
+          <span class="location">{{location}}</span>
         </a>
       </li>
       {{/each}}
