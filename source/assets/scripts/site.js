@@ -1,5 +1,5 @@
 // Create a map in the div #map
-var map = L.mapbox.map('map', 'justinthrelkeld.map-sx96mhp3');
+var map = L.mapbox.map('map', 'justinthrelkeld.i69mcc98');
 
 map.setView([35.854513,-86.415847], 15);
 
