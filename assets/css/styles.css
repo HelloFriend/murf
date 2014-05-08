@@ -22,28 +22,73 @@ body {
 h1:first-of-type {
   margin-top: 0; }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+.separatorPunctuation {
+  display: none; }
+
 .container {
   width: 100%;
   height: 100%; }
 
 .content {
+  box-sizing: border-box;
   margin: 0 auto;
   width: 500px;
   height: 100%;
   position: relative;
   z-index: 20;
   font-size: 2em;
-  background-color: rgba(0, 0, 0, 0.3); }
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 1em;
+  overflow: scroll; }
 
-.event {
-  display: block;
-  width: 100%;
-  color: white;
-  text-decoration: none; }
+.month-heading {
+  font-weight: 500;
+  text-transform: uppercase; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  clear: both;
+  width: 100%; }
+  ul li {
+    margin-bottom: 1em;
+    overflow: hidden; }
+  ul .event {
+    display: block;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    clear: both; }
+    ul .event p {
+      margin: 0; }
+    ul .event time {
+      float: left;
+      width: 3em; }
+    ul .event .hour {
+      font-size: 2.4em;
+      float: left; }
+    ul .event .minute {
+      font-size: 0.8em;
+      float: left;
+      clear: right;
+      padding-top: 0.5em; }
+    ul .event .daypart {
+      font-size: 0.8em;
+      float: left; }
+    ul .event .title {
+      display: block; }
+    ul .event .location {
+      display: block;
+      float: left; }
 
 #map {
   position: absolute;
   height: 100px;
   width: 100%;
   height: 100%;
-  top: 0; }
+  top: 0;
+  z-index: -20; }
