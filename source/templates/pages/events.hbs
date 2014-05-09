@@ -1,80 +1,16 @@
 ---
 title: Events
-dates:
--
-  title: "Monday"
-  date: 5/6
-  events:
-  -
-    title: "event 1"
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, ad, voluptatem iste qui fugit deserunt aspernatur quae unde ipsam libero sequi assumenda non doloremque laborum cupiditate iusto minima voluptas expedita."
-    event-url: http://google.com
-    location: A Place for Events
-    location-url: http://google.com
-    lat: 35.846682
-    lon: -86.392921
-    time-hour: 6
-    time-minute: 45
-    time-daypart: pm
-  -
-    title: "event 2"
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, ad, voluptatem iste qui fugit deserunt aspernatur quae unde ipsam libero sequi assumenda non doloremque laborum cupiditate iusto minima voluptas expedita."
-    event-url: http://google.com
-    location: A Place for Events
-    location-url: http://google.com
-    lat: 35.846682
-    lon: -86.392921
-    time-hour: 6
-    time-minute: 45
-    time-daypart: pm
--
-  title: "Tuesday"
-  date: 5/7
-  events:
-  -
-    title: "event 3"
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, ad, voluptatem iste qui fugit deserunt aspernatur quae unde ipsam libero sequi assumenda non doloremque laborum cupiditate iusto minima voluptas expedita."
-    event-url: http://google.com
-    location: A Place for Events
-    location-url: http://google.com
-    lat: 35.846682
-    lon: -86.392921
-    time-hour: 6
-    time-minute: 45
-    time-daypart: pm
-  -
-    title: "event 4"
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, ad, voluptatem iste qui fugit deserunt aspernatur quae unde ipsam libero sequi assumenda non doloremque laborum cupiditate iusto minima voluptas expedita."
-    event-url: http://google.com
-    location: A Place for Events
-    location-url: http://google.com
-    lat: 35.855941
-    lon: -86.4291
-    time-hour: 6
-    time-minute: 45
-    time-daypart: pm
-  -
-    title: "event 5"
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, ad, voluptatem iste qui fugit deserunt aspernatur quae unde ipsam libero sequi assumenda non doloremque laborum cupiditate iusto minima voluptas expedita."
-    event-url: http://google.com
-    location: A Place for Events
-    location-url: http://google.com
-    lat: 35.846682
-    lon: -86.392921
-    time-hour: 6
-    time-minute: 45
-    time-daypart: pm
 ---
 <div>
   <h1>Events</h1>
   <ul>
-  {{#each dates}}
+  {{#each site.dates}}
   <li>
     <span class="month-heading">{{title}} - {{date}}</span>
     <ul>
       {{#each events}}
       <li>
-        <a class="event" href="{{location-url}}" data-lat="{{lat}}" data-lon="{{lon}}">
+        <a target="_blank" class="event" href="{{location-url}}" data-lat="{{lat}}" data-lon="{{lon}}">
           <time datetime="{{time-hour}}:{{time-minute}}{{time-daypart}}">
             <span class="hour">{{time-hour}}</span><span class="separatorPunctuation">:</span><span class="minute">{{time-minute}}</span><span class="daypart">{{time-daypart}}</span>
           </time>
