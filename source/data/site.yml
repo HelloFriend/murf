@@ -1,1 +1,139 @@
 title: Murfreesboro calendar
+dates:
+-
+  title: "Friday"
+  date: 5/9
+  events:
+  -
+    title: "Live Music: The Wilkins"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, ad, voluptatem iste qui fugit deserunt aspernatur quae unde ipsam libero sequi assumenda non doloremque laborum cupiditate iusto minima voluptas expedita."
+    event-url: http://google.com
+    location: Reveille Joe Coffee Co.
+    location-url: https://www.facebook.com/events/565668366879943/?ref=5
+    lat: 35.846682
+    lon: -86.392921
+    time-hour: 6
+    time-minute: "00"
+    time-daypart: pm
+  -
+    title: "Rutherford County Farmers' Market"
+    description: "Market vendors hail from over 20 Middle TN counties and sell a wide variety of seasonal fruits and vegetables, meats, eggs, baked and canned goods, flowers, plants and more. 7am - 12 noon."
+    event-url: http://google.com
+    location: Lane Agri-Park
+    location-url: https://extension.tennessee.edu/Rutherford/Pages/Farmers-Market.aspx
+    lat: 35.854306
+    lon: -86.445614
+    time-hour: 7
+    time-minute: "00"
+    time-daypart: am
+-
+  title: "Saturday"
+  date: 5/10
+  events:
+  -
+    title: "Bicycle Tour of the Stones River National Battlefield"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, ad, voluptatem iste qui fugit deserunt aspernatur quae unde ipsam libero sequi assumenda non doloremque laborum cupiditate iusto minima voluptas expedita."
+    event-url: http://google.com
+    location: Stones River National Battlefield
+    location-url: http://www.nps.gov/stri/planyourvisit/event-details.htm?eventID=280170-245777
+    lat: 35.866575
+    lon: -86.4273677
+    time-hour: 9
+    time-minute: "00"
+    time-daypart: am
+  -
+    title: "Live Music: Three Simple Rules"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, ad, voluptatem iste qui fugit deserunt aspernatur quae unde ipsam libero sequi assumenda non doloremque laborum cupiditate iusto minima voluptas expedita."
+    event-url: http://google.com
+    location: Reveille Joe Coffee Co.
+    location-url: http://google.com
+    lat: 35.846682
+    lon: -86.392921
+    time-hour: 6
+    time-minute: "00"
+    time-daypart: pm
+  -
+    title: "My Son Pinocchio, Jr"
+    description: "The classic tale of toymaker Geppetto’s little wooden puppet is given new life. This new musical, which retells the classic Disney story from Geppetto’s perspective, features the beloved classic songs “When You Wish Upon a Star” and “I’ve Got No Strings,” alongside a host of new songs by Oscar- and Grammy Award-winner and master melodist Stephen Schwartz, tackling timely issues about what it means to be “the perfect child” – and what it means to be “a real father."
+    event-url: http://google.com
+    location: Center for the Arts
+    location-url: http://boroarts.org/pinocchiojr/
+    lat: 35.847128
+    lon: -86.391566
+    time-hour: 7
+    time-minute: "30"
+    time-daypart: pm
+-
+  title: "Sunday"
+  date: 5/11
+-
+  title: "Monday"
+  date: 5/12
+  events:
+-
+  title: "Tuesday"
+  date: 1/13
+  events:
+  -
+    title: "Rutherford County Farmers' Market"
+    description: "Market vendors hail from over 20 Middle TN counties and sell a wide variety of seasonal fruits and vegetables, meats, eggs, baked and canned goods, flowers, plants and more. 7am - 12 noon."
+    event-url: http://google.com
+    location: Lane Agri-Park
+    location-url: https://extension.tennessee.edu/Rutherford/Pages/Farmers-Market.aspx
+    lat: 35.854306
+    lon: -86.445614
+    time-hour: 7
+    time-minute: "00"
+    time-daypart: am
+-
+  title: "Wednesday"
+  date: 5/14
+-
+  title: "Thursday"
+  date: 5/15
+  events:
+-
+  title: "Friday"
+  date: 5/16
+  events:
+  -
+    title: "Cannonsburgh Concert Series"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, ad, voluptatem iste qui fugit deserunt aspernatur quae unde ipsam libero sequi assumenda non doloremque laborum cupiditate iusto minima voluptas expedita."
+    event-url: http://google.com
+    location: Cannonsburgh Village
+    location-url: https://www.google.com/maps/place/Cannonsburgh+Village/@35.843739,-86.396704,17z/data=!3m1!4b1!4m2!3m1!1s0x8863f86b9e6c0899:0xbad472b1ad0557ed
+    lat: 35.843739
+    lon: -86.396704
+    time-hour: 7
+    time-minute: "00"
+    time-daypart: pm
+-
+  title: "Saturday"
+  date: 5/17
+  events:
+  -
+    title: "Live Music: Candace Brown"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, ad, voluptatem iste qui fugit deserunt aspernatur quae unde ipsam libero sequi assumenda non doloremque laborum cupiditate iusto minima voluptas expedita."
+    event-url: https://www.facebook.com/events/746900345344670/?ref=5
+    location: Reveille Joe Coffee Co.
+    location-url: https://www.facebook.com/events/746900345344670/?ref=5
+    lat: 35.846682
+    lon: -86.392921
+    time-hour: 7
+    time-minute: "00"
+    time-daypart: pm
+-
+  title: "Friday"
+  date: 5/23
+  events:
+  -
+    title: "Live Music: We are the Finale and ForeverandNever"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, ad, voluptatem iste qui fugit deserunt aspernatur quae unde ipsam libero sequi assumenda non doloremque laborum cupiditate iusto minima voluptas expedita."
+    event-url: http://google.com
+    location: Reveille Joe Coffee Co.
+    location-url: #
+    lat: 35.846682
+    lon: -86.392921
+    time-hour: 7
+    time-minute: "00"
+    time-daypart: pm
