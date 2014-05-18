@@ -5,6 +5,7 @@ title: Events
   <h1>Events</h1>
   <ul>
   {{#each site.dates}}
+  {{#if events}}
   <li>
     <span class="month-heading">{{title}} - {{date}}</span>
     <ul>
@@ -21,6 +22,7 @@ title: Events
       {{/each}}
     </ul>
   </li>
+  {{/if}}
   {{/each}}
   </ul>
 </div>
