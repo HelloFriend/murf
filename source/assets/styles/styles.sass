@@ -22,7 +22,7 @@ html
   font-family: ff-ebisu, helvetica, arial, sans-serif
   font-size: 10px
   font-weight: 100
-  letter-spacing: .05em
+  letter-spacing: .15em
 body
   width: 100%
   height: 100%
@@ -77,17 +77,24 @@ ul
     time
       float: left
       width: 3em
+      padding-right: .4em
+      letter-spacing: .05em
+      margin-right: .5em
     .hour
       font-size: 2.4em
       float: left
     .minute
       font-size: .8em
-      float: left
+      float: right
       clear: right
-      padding-top: .5em
+      padding-top: .2em
+      font-weight: 300
     .daypart
-      font-size: .8em
-      float: left
+      font-size: .6em
+      float: right
+      font-weight: 100
+      border-bottom: 1px solid
+      padding-bottom: 1px
     .title
       display: block
     .location
@@ -101,3 +108,6 @@ ul
   height: 100%
   top: 0
   z-index: -20
+
+.leaflet-container a
+  font-weight: 100!important
