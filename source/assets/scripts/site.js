@@ -1,5 +1,6 @@
 // Create a map in the div #map
-var map = L.mapbox.map('map', 'justinthrelkeld.i69mcc98');
+var map = L.mapbox.map('map', 'justinthrelkeld.i69mcc98', { zoomControl: false });
+// L.Control.Zoom({ position: 'topright' }).addTo(map)
 
 map.setView([35.854513,-86.415847], 15);
 
