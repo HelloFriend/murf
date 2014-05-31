@@ -9,7 +9,7 @@ dates:
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, ad, voluptatem iste qui fugit deserunt aspernatur quae unde ipsam libero sequi assumenda non doloremque laborum cupiditate iusto minima voluptas expedita."
     event-url: http://google.com
     location: Reveille Joe Coffee Co.
-    location-url: https://www.facebook.com/events/565668366879943/?ref=5
+    location-url: https://www.facebook.com/events/248410258679084/?ref=5
     lat: 35.846682
     lon: -86.392921
     time-hour: 6
@@ -46,7 +46,7 @@ dates:
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, ad, voluptatem iste qui fugit deserunt aspernatur quae unde ipsam libero sequi assumenda non doloremque laborum cupiditate iusto minima voluptas expedita."
     event-url: http://google.com
     location: Reveille Joe Coffee Co.
-    location-url: http://google.com
+    location-url: https://www.facebook.com/events/565668366879943/?ref=5
     lat: 35.846682
     lon: -86.392921
     time-hour: 6
