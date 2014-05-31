@@ -1,0 +1,14 @@
+---
+component: navbar
+---
+<nav class="navigation">
+  <ul>
+    {{#each pages}}
+    {{#unless data.hidden}}
+      <li class="navigation__item navigation__item--{{slugify data.title}}{{#if this.isCurrentPage}} nav__item--active{{/if}}">
+        <a href="{{relative dest this.dest}}">{{ data.title }}</a>
+      </li>
+    {{/unless}}
+    {{/each}}
+  </ul>
+</nav>

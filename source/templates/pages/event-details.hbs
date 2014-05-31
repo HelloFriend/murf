@@ -1,9 +1,23 @@
 ---
 title: Events
+hidden: true
 body_class: event-detail
 ---
-<div>
-  <span class="month-heading">Monday - 5/9</span>
+<div class="event--detail">
+  <div class="date__heading">Monday - 5/9</div>
+  <div class="event__title">Event Title</div>
+  <time datetime="6:00pm" class="event__time">When:
+    <span class="event__time__hour">6</span><span class="separatorPunctuation">:</span><span class="event__time__minute">00</span><span class="event__time__daypart">pm</span>
+  </time>
+  <div class="event__location">Where:
+    <a href="#" class="event__location__link">Your favorite place</a></div>
+  <div class="event__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+  <a target="_blank" class="event__details-link" href="{{location-url}}" data-lat="{{lat}}" data-lon="{{lon}}">more information</a>
 </div>
 
 

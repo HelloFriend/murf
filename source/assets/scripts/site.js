@@ -6,10 +6,15 @@ map.setView([35.854513,-86.415847], 15);
 
 $( document ).ready(function(){
   console.log("initialized");
-  $('a.event').on('mouseenter', function(){
+  $('li.event').on('mouseenter', function(){
     console.log($(this).data('lat') + ', ' + $(this).data('lon'));
 
     map.panTo([$(this).data('lat'), $(this).data('lon')],{duration: 7, easeLinearity:.1});
 
+  });
+});
+$( document ).ready(function(){
+  $('#show-menu').on('click', function(){
+    $('body').toggleClass('show-menu');
   });
 });
