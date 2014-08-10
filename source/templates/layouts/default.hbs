@@ -16,10 +16,16 @@
     <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
   </head>
 <body {{#if body_class}}class="{{body_class}}"{{/if}}>
-  {{> navbar-top }}
+  {{> menu }}
   <div class="container" role="main">
     <a href="#menu" id="show-menu">menu</a>
     <div class="content">
+      <div class="page-header">
+        <h1>
+          <a class="page-header--events" href="events.html">Events</a> /
+          <a class="page-header--ideas" href="ideas.html">Ideas</a>
+        </h1>
+      </div>
       {{> body }}
     </div>
   </div>

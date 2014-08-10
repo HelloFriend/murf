@@ -1,0 +1,22 @@
+---
+title: Ideas
+body_class: ideas
+---
+<div>
+  <ul class="calendar">
+    <li class="calendar__date">
+      <ul>
+        {{#each site.ideas}}
+        <li class="event" data-lat="{{lat}}" data-lon="{{lon}}">
+          <a target="_blank" class="event__inner" href="{{location-url}}">
+            <span class="event__title">{{title}}</span>
+            <span class="event__location">{{location}}</span>
+          </a>
+        </li>
+        {{/each}}
+      </ul>
+    </li>
+  </ul>
+</div>
+
+

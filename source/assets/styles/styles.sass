@@ -26,9 +26,9 @@ html
   margin: 0
   font-family: ff-ebisu, helvetica, arial, sans-serif
   font-size: 10px
-  font-weight: 100
+  font-weight: 200
   letter-spacing: .15em
-  text-shadow: 0 0 1px #000
+  text-shadow: 0 0 1px rgba(0,0,0,0.3)
   background-color: #4eb7cd
 body
   width: 100%
@@ -53,7 +53,7 @@ p
   overflow: scroll
   background-color: rgba(255,255,255,.5)
   margin: 0
-  @include transition(margin-left 2.0s)
+  @include transition(transform 1.0s)
 .content
   box-sizing: border-box
   margin: 0 auto
@@ -188,7 +188,7 @@ body.event-detail
 .navigation
   position: absolute
   width: 300px
-  transition: transform 2.0s
+  @include transition(transform 1.0s)
   @include transform( translateX(-300px) )
   height: 100%
   top: 0
@@ -211,7 +211,51 @@ body.show-menu
   .container
     position: relative
     overflow: hidden
-    // @include transition(transform 2.0s)
+    @include transition(transform 1.0s)
     @include transform( translateX(300px) )
   .navigation
     @include transform( translateX(0px) )
+    @include transition(transform 1.0s)
+
+
+.page-header
+  text-align: center
+  a
+    text-decoration: none
+    color: inherit
+
+.page-header--events
+  &:before
+    content: ' '
+    display: inline-block
+    width: 60px
+    height: 80px
+    position: relative
+    padding-right: 15px
+    bottom: -20px
+    background-image: url('event-icon-black.png')
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: center center
+.page-header--ideas
+  &:after
+    content: ' '
+    display: inline-block
+    width: 60px
+    height: 80px
+    position: relative
+    bottom: -20px
+    background-image: url('idea-icon-black.png')
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: center center
+
+.events
+  .page-header--events
+    font-weight: 300!important
+    letter-spacing: -1px
+
+.ideas
+  .page-header--ideas
+    font-weight: 300!important
+    letter-spacing: -1px

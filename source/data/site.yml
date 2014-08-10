@@ -137,3 +137,27 @@ dates:
     time-hour: 7
     time-minute: "00"
     time-daypart: pm
+
+ideas:
+-
+  title: "Live music every night - your band should play!"
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, ad, voluptatem iste qui fugit deserunt aspernatur quae unde ipsam libero sequi assumenda non doloremque laborum cupiditate iusto minima voluptas expedita."
+  event-url: http://google.com
+  location: Reveille Joe Coffee Co.
+  location-url: #
+  lat: 35.846682
+  lon: -86.392921
+  time-hour: 7
+  time-minute: "00"
+  time-daypart: pm
+-
+  title: "Improve the Farmers' Market, turn it into a makers market"
+  description: "Market vendors hail from over 20 Middle TN counties and sell a wide variety of seasonal fruits and vegetables, meats, eggs, baked and canned goods, flowers, plants and more. 7am - 12 noon."
+  event-url: http://google.com
+  location: Lane Agri-Park
+  location-url: https://extension.tennessee.edu/Rutherford/Pages/Farmers-Market.aspx
+  lat: 35.854306
+  lon: -86.445614
+  time-hour: 7
+  time-minute: "00"
+  time-daypart: am
